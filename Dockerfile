@@ -2,6 +2,7 @@ FROM       debian:stable
 MAINTAINER Paul Tagliamonte <paultag@debian.org>
 
 RUN apt-get update && apt-get install -y \
+    heirloom-mailx \
     adduser \
     git \
     rsync
